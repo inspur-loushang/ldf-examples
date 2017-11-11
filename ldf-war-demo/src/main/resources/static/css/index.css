@@ -1,0 +1,107 @@
+body {
+	font: 14px arial,microsoft yahei,simsun,simhei,sans-serif;
+}
+.navbar {
+	margin-bottom: 0;
+	border-bottom: 1px solid #ddd;
+	background-color: #00bbee;
+	min-height: 44px;
+}
+.navbar-header {
+	margin-left: 20px;
+}
+.navbar-brand {
+	padding-left: 145px;
+	background-image: url(../img/login-logo.png);
+	background-repeat: no-repeat;
+	color: #fff;
+	background-position: 0 13px;
+	height: 44px;
+	line-height: 16px;
+}
+.navbar-brand span {
+	font-size: 18px;
+	color: #ddd;
+	margin: auto 10px auto 0px;
+}
+.navbar-brand:hover {
+	color: #fff;
+}
+
+.fa.fa-bars.pull-left {
+	margin-top: 12px;
+	margin-right: 14px;
+	font-size: 20px;
+	color: #ccf1fc;
+}
+.fa.fa-bars.pull-left:hover,.fa.fa-bars.pull-left:focus {
+	color: #fff;
+}
+.fa.fa-star.ue-vmenu-icon-r {
+	color:#ddd;
+}
+.fa.fa-star.ue-vmenu-icon-r:hover{
+    color:#027bff;
+}
+.fa.fa-times.ue-vmenu-icon-r{
+	color: #ddd;
+	float: right;
+	font-size: 18px;
+}
+.fa.fa-times.ue-vmenu-icon-r:hover{
+	color: #027bff;
+}
+
+.ue-left-top {
+	background-color: #fafafa;
+	color: #000;
+}
+.ue-menu-wrap {
+	top: 44px;
+}
+.md {
+	color: #00bbee;
+}
+
+.ue-vmenu{
+	background-color:#fafafa;
+}
+.ue-left-content{
+	top:47px;
+	background-color:#fafafa;
+}
+.ue-vmenu .ue-vmenu-icon {
+top: 10px;
+}
+.ue-vmenu .ue-vmenu-icon {
+    background-image: url(../../img/zTreeStandard.png);
+    background-position: -110px 0;
+    vertical-align: top;
+    width: 18px;
+    height: 15px;
+}
+.ue-vmenu li.on>a>.ue-vmenu-icon {
+    background-image: url(../../img/zTreeStandard.png);
+    background-position: -110px -15px;
+    vertical-align: top;
+    width: 18px;
+    height: 15px;
+}
+.ue-vmenu .ue-vmenu-icon.leaf {
+    background-image: url(../../img/zTreeStandard.png);
+    margin-right: 2px;
+    background-position: -110px -32px;
+    vertical-align: top;
+    width: 18px;
+    height: 15px;
+}
+/*左侧菜单项选中时左侧显示左边框*/
+.ue-vmenu ul li a:focus, .ue-vmenu ul li a:hover, .ue-vmenu li.curr a {
+	border-left: 3px solid #0be;
+} 
+.row {
+	margin: 0;
+}
+.container {
+	width: 100%;
+}
