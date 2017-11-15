@@ -20,4 +20,5 @@ spring:
 mybatis:
     type-aliases-package: org.loushang.ldf.data
     mapper-locations: classpath:dao/*.xml
-    configuration:mapUnderscoreToCamelCase: true
+    configuration:
+        mapUnderscoreToCamelCase: true

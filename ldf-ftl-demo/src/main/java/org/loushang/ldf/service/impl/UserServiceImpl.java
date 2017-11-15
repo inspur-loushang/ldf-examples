@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.UUID;
 
-import org.loushang.framework.mybatis.util.PageUtil;
+import org.loushang.framework.mybatis.PageUtil;
 import org.loushang.ldf.dao.ArchiveMapper;
 import org.loushang.ldf.dao.UserMapper;
 import org.loushang.ldf.data.User;

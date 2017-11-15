@@ -7,8 +7,8 @@
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
     <title>用户案例</title>
 
-    <link href="${rc.contextPath}/webjars/bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="${rc.contextPath}/webjars/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="${rc.contextPath}/webjars/ldf/css/bootstrap.css" rel="stylesheet">
+    <link href="${rc.contextPath}/webjars/ldf/css/font-awesome.css" rel="stylesheet">
     <link href="${rc.contextPath}/webjars/ldf/css/flexgrid.css" rel="stylesheet">
     <link href="${rc.contextPath}/webjars/ldf/css/ui.css" rel="stylesheet">
     <link href="${rc.contextPath}/webjars/ldf/css/form.css" rel="stylesheet">
@@ -20,8 +20,8 @@
       <script src="/skin/html5shiv/html5shiv.min.js"></script>
       <script src="/skin/respond/dest/respond.min.js"></script>
     <![endif]-->
-     <script src="${rc.contextPath}/webjars/jquery/jquery.js"></script>
-     <script src="${rc.contextPath}/webjars/bootstrap/js/bootstrap.js"></script>
+     <script src="${rc.contextPath}/webjars/ldf/jquery.js"></script>
+     <script src="${rc.contextPath}/webjars/ldf/js/bootstrap.js"></script>
      <script src="${rc.contextPath}/webjars/ldf/js/flexgrid.js"></script>
      <script src="${rc.contextPath}/webjars/ldf/js/loushang-framework.js"></script>
      <script src="${rc.contextPath}/webjars/ldf/js/form.js"></script>
