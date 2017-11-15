@@ -18,7 +18,7 @@
       <script src="/skin/html5shiv/html5shiv.min.js"></script>
       <script src="/skin/respond/dest/respond.min.js"></script>
     <![endif]-->
-     <script src="${rc.contextPath}/webjars/ldf/jquery.js"></script>
+     <script src="${rc.contextPath}/webjars/ldf/js/jquery.js"></script>
      <script src="${rc.contextPath}/webjars/ldf/js/bootstrap.js"></script>
      <script src="${rc.contextPath}/webjars/ldf/js/form.js"></script>
      <script src="${rc.contextPath}/webjars/ldf/js/ui.js"></script>
