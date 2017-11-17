@@ -1,0 +1,12 @@
+server:
+    port: 9090
+    context-path: /loushang/
+    servlet-path: /service/*
+
+logging:
+    level:
+        org.loushang: TRACE 
+    
+spring:
+    freemarker:
+        request-context-attribute : rc

@@ -34,6 +34,7 @@
 		<module>ldf-mvc-demo</module>
 		<module>ldf-docker-demo</module>
 		<module>ldf-war-demo</module>
+		<module>ldf-micro-service</module>
 	</modules>
 
 </project>

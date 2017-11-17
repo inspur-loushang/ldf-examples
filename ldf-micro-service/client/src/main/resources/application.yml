@@ -1,0 +1,10 @@
+server:
+    port: 8080
+
+logging:
+    level:
+        org.loushang: TRACE 
+    
+spring:
+    freemarker:
+        request-context-attribute : rc
