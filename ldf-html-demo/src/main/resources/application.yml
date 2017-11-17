@@ -1,0 +1,24 @@
+server:
+    port: 8080
+#    context-path: /demo/
+
+
+logging:
+    level:
+        org.loushang: TRACE 
+    
+spring:
+    datasource:
+        driverClassName : com.mysql.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/day
+        username: root
+        password: 123
+        min-idle: 1
+        max-active: 20
+        test-on-borrow: true
+
+mybatis:
+    type-aliases-package: org.loushang.ldf.data
+    mapper-locations: classpath:dao/*.xml
+    configuration:
+        mapUnderscoreToCamelCase: true
