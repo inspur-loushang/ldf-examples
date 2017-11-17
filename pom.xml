@@ -12,7 +12,7 @@
 		<version>0.2.0</version>
 		<relativePath />
 	</parent>
-	
+
 	<build>
 		<plugins>
 			<plugin>
@@ -35,6 +35,27 @@
 		<module>ldf-docker-demo</module>
 		<module>ldf-war-demo</module>
 		<module>ldf-micro-service</module>
+		<module>ldf-html-demo</module>
 	</modules>
+	
+	<!-- 配置私服信息 -->
+	<repositories>
+		<repository>
+			<id>nexus-jar</id>
+			<name>Team Nexus jar Repository</name>
+			<url>http://10.110.13.14:8081/nexus/content/groups/inspur-loushang/</url>
+		</repository>
+		<repository>
+			<id>thirdparty</id>
+			<url>http://10.110.13.21:8081/nexus/content/repositories/thirdparty</url>
+		</repository>
+	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>nexus-plugin</id>
+			<name>Team Nexus plugin Repository</name>
+			<url>http://10.110.13.14:8081/nexus/content/groups/inspur-loushang/</url>
+		</pluginRepository>
+	</pluginRepositories>
 
 </project>
