@@ -74,21 +74,8 @@ public class UserController {
 	 */
 	@RequestMapping("/edit")
 	public String editPage(@RequestParam(value = "id", required = false) String id) {
-		// User user = null;
-		// if (id != null && !"".equals(id)) {
-		// user = userService.findOne(id);
-		// }
-		// Map<String, Object> model = new HashMap<String, Object>();
-		// model.put("user", user);
 		return "user/modifyuser";
 	}
-	/*
-	 * @RequestMapping("/edit") public ModelAndView editPage(@RequestParam(value =
-	 * "id", required = false) String id) { User user = null; if (id != null &&
-	 * !"".equals(id)) { user = userService.findOne(id); } Map<String, Object> model
-	 * = new HashMap<String, Object>(); model.put("user", user); return new
-	 * ModelAndView("user/modifyuser", model); }
-	 */
 
 	/**
 	 * 保存操作
