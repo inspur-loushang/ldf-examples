@@ -36,8 +36,9 @@ public class UserController {
 	@RequestMapping("/query")
 	@ResponseBody
 	public Map<String, Object> query(@RequestBody Map<String, Object> parameters) {
-		String url = "http://loushang/service/framework/demo/userend/query";
-		return RestRequestUtils.postForObject(url, parameters, Map.class);
+		//String url = "http://loushang/service/framework/demo/userend/query";//k8s
+		String url = "http://127.0.0.1:9090/loushang/service/framework/demo/userend/query";
+		return RestRequestUtils.post(url, parameters, Map.class);
 	}
 
 	/**
@@ -48,16 +49,18 @@ public class UserController {
 	@RequestMapping("/getUserDetailsById")
 	@ResponseBody
 	public Map<String, Object> getUserDetailsById(HttpServletRequest req) {
-		String url = "http://loushang/service/framework/demo/userend/getUserDetailsById/{id}";
+		//String url = "http://loushang/service/framework/demo/userend/getUserDetailsById/{id}";//k8s
+		String url = "http://127.0.0.1:9090/loushang/service/framework/demo/userend/getUserDetailsById/{id}";
 		Map<String, String> params = new HashMap<String, String>();
 		params.put("id", req.getParameter("id"));
-		return RestRequestUtils.getForObject(url, Map.class, params);
+		return RestRequestUtils.get(url, Map.class, params);
 	};
 
 	@RequestMapping("/delete/{id}")
 	@ResponseBody
 	public Map<String, Object> deleteUser(@PathVariable String id) {
-		String url = "http://loushang/service/framework/demo/userend/delete/{id}";
+		//String url = "http://loushang/service/framework/demo/userend/delete/{id}";//k8s
+		String url = "http://127.0.0.1:9090/loushang/service/framework/demo/userend/delete/{id}";
 		Map<String, String> params = new HashMap<String, String>();
 		params.put("id", id);
 		RestRequestUtils.delete(url, params);
@@ -91,7 +94,8 @@ public class UserController {
 	@RequestMapping(value = "/save")
 	@ResponseBody
 	public Map<String, Object> saveUser(@RequestBody Map<String, Object> user) {
-		String url = "http://loushang/service/framework/demo/userend/save";
-		return RestRequestUtils.postForObject(url, user, Map.class);
+		//String url = "http://loushang/service/framework/demo/userend/save";//k8s
+		String url = "http://127.0.0.1:9090/loushang/service/framework/demo/userend/save";
+		return RestRequestUtils.post(url, user, Map.class);
 	}
 }

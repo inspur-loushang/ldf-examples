@@ -19,6 +19,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-freemarker</artifactId>
 		</dependency>
+		<!-- 适配k8s -->
+		<!-- <dependency>
+			<groupId>org.loushang</groupId>
+			<artifactId>ldf-adaptor-k8s</artifactId>
+			<version>0.2.0</version>
+		</dependency> -->
 	</dependencies>
 	<build>
 		<plugins>
