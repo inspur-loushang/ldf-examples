@@ -1,0 +1,47 @@
+[
+    {
+        "roleId": "dev1", 
+        "resources": [
+            {
+                "rid": "index", 
+                "url": "index.html", 
+                "type": "menu"
+            },
+            {
+                "rid": "queryuser", 
+                "url": "queryuser.html", 
+                "type": "menu"
+            },
+            {
+                "rid": "modifyuser", 
+                "url": "modifyuser.html", 
+                "type": "menu"
+            },
+            {
+                "rid": "service", 
+                "url": "/service/*", 
+                "type": "service"
+            }
+        ]
+    }, 
+    {
+        "roleId": "dev2", 
+        "resources": [
+            {
+                "rid": "index", 
+                "url": "index.html", 
+                "type": "menu"
+            },
+            {
+                "rid": "queryuser", 
+                "url": "queryuser.html", 
+                "type": "menu"
+            },
+            {
+                "rid": "service", 
+                "url": "/service/*", 
+                "type": "service"
+            }
+        ]
+    }
+]

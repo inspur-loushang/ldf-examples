@@ -1,0 +1,20 @@
+{
+  "menu": {
+    "rows": [
+      {
+        "id": "queryuser",
+        "text": "用户列表",
+        "url": "queryuser.html",
+        "icon": "",
+        "isLeaf": "true"
+      },
+      {
+        "id": "modifyuser",
+        "text": "新增用户",
+        "url": "modifyuser.html",
+        "icon": "",
+        "isLeaf": "true"
+      }      
+    ]
+  }
+}
