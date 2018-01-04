@@ -1,6 +1,6 @@
 server:
     port: 8080
-    //context-path: /loushang/
+    #context-path: /loushang/
 
 logging:
     level:
