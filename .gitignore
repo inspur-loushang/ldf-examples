@@ -12,3 +12,7 @@ buildNumber.properties
 !/.mvn/wrapper/maven-wrapper.jar
 /.settings/
 /.project
+/ldf-micro-service/ldf-micro-service.iml
+/ldf-micro-service/service/service.iml
+/ldf-examples.iml
+/.idea/
